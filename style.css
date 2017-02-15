@@ -1,5 +1,5 @@
 /*
-Theme Name: Amanda Cheng Blank Theme
+Theme Name: Amanda Blank Theme
 Theme URI:
 Author: Amanda Cheng
 Description: Blank theme for WIE course
@@ -7,8 +7,10 @@ Version: 0.1
 License: Open
 Text Domain: amanda_cheng_blank_template
 */
+@import url("css/normalize.css");
+@import url("css/skeleton.css");
 
-* {
+*{
 	color: #000000;
 	font-size: 14px;
 	line-height: 16px;

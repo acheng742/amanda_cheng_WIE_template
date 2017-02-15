@@ -1,19 +1,15 @@
-<!DOCTYPE html>
+<?php get_header(); ?>
 
-<html>
+    <section class="row">
 
-<head>
+        <div class="twelve colums">
 
-    <title></title>
+            <h2>Section Content</h2>
 
-</head>
+            <p>This is some cool section content</p>
 
-<body>
+        </div>
 
-    <h1>Blank WordPress Template</h1>
+    </section>
 
-    <p>This is my WordPress template.</p>
-
-</body>
-
-</html>
+<?php get_footer(); ?>
