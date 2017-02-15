@@ -4,9 +4,22 @@
 
         <div class="twelve colums">
 
-            <h2>Section Content</h2>
+            <?php
 
-            <p>This is some cool section content</p>
+                if ( have_posts() ) {
+
+                    while ( have_posts() ){
+
+                        the_post(); ?>
+
+                        <h3><?php the_title(); ?></h3>
+
+                        <p><?php the_excerpt(); ?></P>
+                    <?php    
+                    }
+                }
+
+            ?>
 
         </div>
 

@@ -1,16 +1,28 @@
         <footer class="row">
 
-            <div class="twelve colums">
+            <div class="four columns">
 
-                <h2>This is the Footer</h2>
+                <?php dynamic_sidebar('footer-one'); ?>
 
-                <p>This is some cool footer content</p>
+            </div>
+
+            <div class="four columns">
+
+                <?php dynamic_sidebar('footer-two'); ?>
+
+            </div>
+
+            <div class="four columns">
+
+                <?php dynamic_sidebar('footer-three'); ?>
 
             </div>
 
         </footer>
 
     </div>
+
+    <?php wp_footer(); ?>
 
 </body>
 
